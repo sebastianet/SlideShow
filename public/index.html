@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+
+ <meta charset="utf-8">
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="shortcut icon" href="favicon.ico" />
+ <llink rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.11.3/themes/flick/jquery-ui.css" />
+
+ <title>SlideShow by SAG</title>
+
+<STYLE TYPE="text/CSS">
+<!--
+
+.tss, .tss TD, .tss TH {
+     font-family: Arial, Verdana, sans-serif ;
+     text-align: center ;
+     background-color: yellow ;
+	 color: blue ;
+ }
+
+.tss {
+	border: 1px solid green ;
+ }
+
+.tss TD {
+	border: 1px solid red ;
+ }
+
+.tss TH {
+	border: 1px solid blue ;
+	text-align: center ;
+ }
+
+  body {
+     font-family: Arial, Verdana, sans-serif ;
+     font-size: 16px ;
+     color: black ;
+     background-color: #9966FF ;
+     text-align: justify ;
+     border: 1px dotted white ;
+ }
+
+ -->
+</STYLE>
+
+</head>
+
+<body>
+
+<header>
+
+
+	<table class="tss">
+	<tr> <th colspan=3>
+		<center>
+		<img id="logo" src="slide-show.jpg"></img>
+		</center>
+	</th>
+	
+	<tr> <td width=300>
+		<div id="div-prev">
+    
+			<img id="img-rev" src="button_back.png"></img>
+<p>
+			<a href="#" class="clkPrev">GoPrev</a>
+	
+		</div>
+	</td>
+	
+	<td width=400>
+		<div id="div-actual-image">
+			<img id="img_actual_image" src="noimage.jpg"></img>
+		</div>
+	</td>
+	
+	<td width=300>
+		<div id="div-next">
+			<img id="img-fwd" src="button_forward.png"></img>
+<p>
+			<a href="#" class="clkNext">GoNext</a>
+		</div>
+	</td>
+
+	<tr> 
+	<th>
+		<div id="my_counter">
+		</div>
+	<th colspan=2>
+		<div id="my_date">
+		</div>
+	</th>
+
+	</tr>
+	</table>
+
+</header>
+
+<hr>
+
+
+<hr>
+
+<ul id="played">
+</ul>
+
+<hr>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="main.js"></script>
+</html>
